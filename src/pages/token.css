@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
   .tokenbg {
-    background-image: url(../img/others/tree-bg.jpg);
+    background-image: url(../img/others/tree-bg.gif);
     animation: medium 20s infinite;
     -webkit-animation: medium 20s infinite;
     background-position: center center;
@@ -10,13 +10,12 @@
     mix-blend-mode: overlay;
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .tokenbg {
-    background-image: url(../img/others/tree-bg.jpg);
+    background-image: url(../img/others/tree-bg.gif);
     animation: large 20s infinite;
     -webkit-animation: large 20s infinite;
     background-position: center center;
@@ -26,50 +25,29 @@
     mix-blend-mode: overlay;
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
-    
   }
 }
 
 @keyframes large {
   0% {
     background-size: 100%;
-    -o-background-size: 100%;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    
   }
   50% {
     background-size: 125%;
-    -o-background-size: 125%;
-    -moz-background-size: 125%;
-    -webkit-background-size: 125%;
   }
   100% {
     background-size: 100%;
-    -o-background-size: 100%;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
   }
 }
 
 @keyframes medium {
   0% {
     background-size: 125%;
-    -o-background-size: 125%;
-    -moz-background-size: 125%;
-    -webkit-background-size: 125%;
   }
   50% {
     background-size: 150%;
-    -o-background-size: 150%;
-    -moz-background-size: 150%;
-    -webkit-background-size: 150%;
   }
   100% {
     background-size: 125%;
-    -o-background-size: 125%;
-    -moz-background-size: 125%;
-    -webkit-background-size: 125%;
   }
 }

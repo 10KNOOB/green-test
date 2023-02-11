@@ -2,7 +2,7 @@ import COIN from "../img/others/coin-g.png";
 import roundimg1 from "../img/others/r1.png";
 import roundimg3 from "../img/others/r3.png";
 import midimg from "../img/others/image12.png";
-import BG from "../img/others/tree-bg.jpg";
+import BG from "../img/others/tree-bg.gif";
 import "./token.css";
 
 import { useEffect } from "react";
@@ -18,7 +18,7 @@ const Token = () => {
   return (
     <div>
       <section id="hero">
-        <div className="bg-gradient-to-b from-cyan-400 to-blue-900 h-[460px] w-full bg-cover bg-center mix-blend-overlay relative">
+        <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
           <div className="tokenbg "></div>
           <div className="flex md:hidden">
             <img

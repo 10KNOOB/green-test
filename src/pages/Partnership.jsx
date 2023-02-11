@@ -1,7 +1,7 @@
 import "./token.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import BG from "../img/others/tree-bg.jpg";
+import BG from "../img/others/tree-bg.gif";
 import img from "../img/others/image1.png";
 
 const Partnership = () => {
@@ -14,21 +14,22 @@ const Partnership = () => {
 
   return (
     <div className="mx-auto ">
-      <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
-        <div className="tokenbg"></div>
-        <div className="flex md:hidden">
-          <img
-            src={BG}
-            className="w-full h-[460px] object-cover absolute mix-blend-overlay"
-            alt="background"
-          />{" "}
-        </div>
-        <div className="absolute top-40 text-center w-[100%]">
-          <h1 className="text-[50px] text-white font-poppins leading-none">
-            Corporate Offsetting
-          </h1>
-        </div>
-      </div>
+       <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
+          <div className="tokenbg "></div>
+          <div className="flex md:hidden">
+            <img
+              src={BG}
+              className="w-full h-[460px] object-cover absolute mix-blend-overlay"
+              alt="background"
+            />{" "}
+          </div>
+
+          <div className="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
+            <h1 className="text-[50px] mb-7 text-white font-poppins">
+              Corporate offsetting
+            </h1>
+          </div>
+        </div>{" "}
       <div className="w-[100%]">
         <div className="text-center pt-20 mx-auto w-3/4 md:w-2/4 max-sm:w-full">
           <div className="flex justify-center items-center font-medium ">
