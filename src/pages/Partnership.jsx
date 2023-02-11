@@ -1,7 +1,7 @@
 import "./token.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import BG from "../img/others/tree-bg.webp";
+import BG from "../img/others/tree-bg.jpg";
 import img from "../img/others/image1.png";
 
 const Partnership = () => {
