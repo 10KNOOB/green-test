@@ -1,0 +1,39 @@
+:root {
+  --color1: #7ccbff;
+  --color2: #ecfbff;
+}
+.bgimage {
+  background: url("./img/cloud.png") center no-repeat fixed;
+  background-color: #7ccbff;
+  background-size: cover;
+  background-position-x: 100%;
+  animation: moving 35s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bgimage {
+    background-position-y: -200px;
+  }
+}
+/* .active {
+  color: green !important;
+} */
+
+.treeBG {
+  background: url("./img/treebg.png") center no-repeat;
+  background-size: contain;
+}
+.buttonColor {
+  background: white;
+}
+.buttonColor:hover {
+  background: rgb(225, 240, 225);
+}

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply scroll-smooth scroll-pt-[70px];
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  li {
+    @apply cursor-pointer;
+  }
+  button {
+    @apply flex items-center gap-3 font-semibold rounded-xl py-2 px-6 bg-gradient-to-r from-blue-600 to-green-500 hover:bg-green-700 text-white cursor-pointer duration-300;
+  }
+}
+
+@layer components {
+  .title {
+    @apply text-gray-100 w-full text-center font-normal;
+  }
+  .container {
+    @apply max-w-[1200px] mx-auto py-4 px-4;
+  }
+  .p-text {
+    @apply text-[#0aa734];
+  }
+}
